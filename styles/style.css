@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'FonteTitulo';
+    src: url('fontes/Milenia.ttf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: darkgrey;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #fbe81aef, #ff8a1ce6);
+    color: white;
+    padding: 30px 0;
+}
+
+header > h1 {
+    text-align: center;
+    font-family: cursive, Arial, Helvetica, sans-serif;
+    font-size: 3.5em;
+}
